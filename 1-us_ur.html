@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+  .aril{
+    font-family:Arial,Helvetica,sans-serif;
+    font-style: italic;
+	text-align: right;
+  }
+
+  h2.italic {
+    font-family: Lobster, sans-serif;
+    font-style: normal;
+	font-weight: normal;
+	text-align: center;
+}
+  h3.zak{
+    color: #011247;
+    font-family: Lobster, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none
+  }
+.shir {
+text-align: justify;
+text-indent: 20px;
+}
+#footer {
+    position: fixed; /* ������������� ��������� */
+    text-align: center;
+	bottom: 0; /* ����� ������ ���� */
+    padding: 10px; /* ���� ������ ������ */
+    background: #000000; /* ���� ���� */
+    color: #fff; /* ���� ������ */
+    width: 100%; /* ������ ���� */
+	font-size: 0.7em;
+   }
+p.left{
+  font-family: Lobster, sans-serif;
+  text-align: left;
+}
+ul.square {
+  list-style-type: square;
+}
+  </style>
+<meta charset="utf-8">
+<title>bootstrap урок</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+
+<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+
+</head>
+<body background="./image/257917675.png">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <a class="navbar-brand" href="#">
+      <img src="./image/1.png" width="180" height="40" class="d-inline-block align-top" alt="">
+    </a><!-- название компании/логотип -->
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button><!--кнопка меню-->
+      <div class="collapse navbar-collapse" id="navbarNavDropdown"> <!--для группировки и скрытия содержимого навигатора с помощью контрольной точки родителя.-->
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Главная<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Услуги
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown"><span class="nav-item active">
+                  <a class="dropdown-item" href="1-us_ur.html">Юридические услуги</a>
+                  <a class="dropdown-item" href="1-us_bu.html">Бухгалтерские услуги</a>
+                  <a class="dropdown-item" href="1-us_rue.html">Риэлтерские услуги</a>
+                  <a class="dropdown-item" href="1-us_perevod.html">Переводы</a>
+                  <a class="dropdown-item" href="1-us_ochenka.html">Оценка</a>
+                </span>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="recvezit.html">Реквизиты</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="vopros.html">Вопросы-ответы</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="otsiv.html">Отзывы</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="predzap.html">Предварительная запись</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="kontaks.html">Контакты</a>
+              </li>
+        </ul>
+      </div>
+  </nav>
+      <div class="containet-fluid">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-sm-7"><img src="./image/2.png" alt="" class="w-100">
+            </div><!--class w100 нужен чтобы картинка была аддаптивной-->
+              <div class="col-sm-4">
+              <p><h2 class="italic">ЮКАН Дела Семейные</h2></p>
+<h5 class="aril">юридические консультации агенство недвижимости</h5>
+<p class="shir">Добро пожаловать на веб-сайт ООО "ЮКАН ДС"! Мы надеемся, вы получите удовольствие от посещения нашего веб-сайта и найдете здесь много полезной информации. Мы уделяем большое внимание качеству наших консультационных услуг. Подробную информацию о наших услугах вы можете найти на веб-сайте или связавшись с нашим отделом обслуживания клиентов.
+
+Следите за последними новостями на нашем веб-сайте, чтобы своевременно узнавать о всех специальных предложениях. </p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+      <p class="left"><h3 class="zak">Услуги для Юридических лиц</h3></p>
+      <ul class="square">
+        <li>Подготовка и оформление регистрации, реорганизации, ликвидации юридических лиц и индивидуальных предпринимателей, внесение изменений в уставные документы;</li>
+        <li>Правовые консультации: устные, письменные;</li>
+        <li>Абонентское юридическое обслуживание организаций и ИП;</li>
+        <li>Подготовка документов к Совету директоров (очная, заочная форма);</li>
+        <li>Участие в переговорах в качестве представителя клиента;</li>
+        <li>Подготовка, составление, экспертиза гражданско-правовых договоров, и др.;</li>
+        <li>Досудебное, судебное урегулирование споров, исполнительное производство и др.;</li>
+        <li>Внесение изменений и получение выписки из единого государственного реестр юридических лиц (ЕГРЮЛ); в единый государственный реестр индивидуальных предпринимателей (ЕГРИП);</li>
+        <li>Открытие расчетного счета.</li>
+      </ul>
+      <p class="left"><h3 class="zak">Услуги для Физических лиц</h3></p>
+      <ul class="square">
+        <li>Правовая консультация (устная/письменная);</li>
+        <li>Досудебное и судебное урегулирование споров (семейное, наследственное, гражданское, трудовое, административное право);</li>
+        <li>Составление соглашений (алиментных; встреч с ребёнком; о порядке пользования движимым/недвижимым имуществом; о разделе совместно нажитого имущества; и.др.);</li>
+        <li>Составление: исковых заявлений, заявлений, отзывов, возражений;</li>
+        <li>Представительство в суде (ограничение (лишение) родительских прав (дееспособности); раздел  имущества; признание родства, наследства, права собственности, установление фактов имеющих юридическое значение, и др.);</li>
+        <li>Сделки с недвижимостью, оформление документов (аренда, купля-продажа, приватизация, ипотека, наследство, дарение) и др.;</li>
+        <li>Узаконивание собственности в судебном порядке, в том числе самовольной постройки;</li>
+        <li>Получение выписки из ЕГРП.</li>
+      </ul>
+      </div>
+
+<div id="footer">
+    © 2015. ООО "ЮКАН ДС". All Rights Reserved.
+  </div>
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>
